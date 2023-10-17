@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content=""/>
+        <meta name="description" content="Tote Bags Store"/>
+        <title>Register Page</title>
+        <link rel="stylesheet" href="css/project4.css"/>
+        <link rel="stylesheet" href="css/all.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.XYZ/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.XYZ/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.XYZ/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.XYZ/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body id="login-body">
+        <!------------------------------------------header----------------------------------------------->
+        <nav class="navbar navbar-expand-lg bg-light navbar-light" id="nav1">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.jpg" id="logo" style="width:55px;">
+          </a>
+            <a class="navbar-brand" id="brand" href="#">Office & School supplies</a>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon" ></span>
+            </button>
+            <a href="login.html" id="but1">Login</button>
+        </nav>
+        <ul id="user-info">
+            <li><a href="#" id="user"></a></li>
+            <li class="shopp-cart">
+              <i class="fas fa-shopping-cart"></i>
+              <span class="bage">1</span>
+              <div class="carts-products">
+                <div></div>
+                <a href="carts-products.html">View All Products</a>
+              </div>
+            </li>
+          </ul>
+        <!--------------------------------------register-form------------------------------------------->  
+        <div id="body">
+            <h1>Register Form</h1>
+            <form id="form">
+                <input class="input2" type="text"  placeholder="Username" id="username"><br>
+                <input class="input3" type="email"  placeholder="E-mail Address" id="email"><br>
+                <input class="input4" type="password"  placeholder="Password" id="pass"><br>
+                <input type="checkbox">Remember me <br>
+                <input type="submit" value="SIGN UP" id="sign-up">
+                <p>Have An account ? <a href="login.html">Sign up</a></p>
+                <p>OR sign up with</p>
+                <div id="sign-icons">
+                    <i class="fab fa-facebook-square" style="color: rgb(3, 3, 200);"></i>
+                    <i class="fab fa-google-plus-square" style="color: rgb(179, 45, 45);"></i>
+                    <i class="fab fa-linkedin" style="color: rgb(3, 3, 200);"></i>
+                </div>         
+            </form>
+        </div>
+
+        <script src="JS/register.js"></script>
+    </body>
